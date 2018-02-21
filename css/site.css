@@ -1,0 +1,43 @@
+@media only screen and (max-width:770px) {
+  .floating-btn-container {
+    display: none;
+  }
+  .countDown_cont {
+    font-size: 6px;
+  }
+}
+@media (min-width: 770px) {
+  .countDown_cont {
+    font-size: 10px;
+  }
+}
+
+.team-photo img {
+  border-radius: 100%;
+}
+#countdown-timer {
+  height: initial;
+}
+
+.w-dropdown-toggle{
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.countDown_interval_basic_cont_description {
+  font-size: 13px;
+  color: black;
+  text-shadow: none;
+}
+
+.floating-btn-container > .text-block {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.floating-btn {
+  box-shadow: 0 4px 15px rgba(0,0,0,.25);
+}
+.floating-btn-icon {
+  filter: brightness(5);
+}
