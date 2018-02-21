@@ -1,9 +1,15 @@
 $(document).ready(function(){
 
-var countdown_date  = new Date('2018-03-03 12:00:00');
 var cd = new Countdown({
     cont: document.querySelector('#countdown-timer'),
-    endDate: countdown_date.getTime(),
+    endDate: {
+        year: 2018,
+        month: 3,
+        day: 3,
+        hour: 12,
+        minute: 0,
+        second: 0,
+    },
     outputTranslation: {
         year: 'Years',
         week: 'Weeks',
