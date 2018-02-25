@@ -41,3 +41,7 @@
 .floating-btn-icon {
   filter: brightness(5);
 }
+
+nav.main-menu .w-dropdown {
+  font-size: 15px;
+}
